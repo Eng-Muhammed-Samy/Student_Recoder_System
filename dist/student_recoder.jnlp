@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="student_recoder.jnlp">
+  <information>
+    <title>student_recoder</title>
+    <vendor>Eng muhamed</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\jackson-core-asl-1.9.13.jar" size="232248" download="eager" />
+    <jar href="lib\jackson-mapper-asl-1.9.13.jar" size="780664" download="eager" />
+    <jar href="student_recoder.jar" size="14067" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="student_recoder" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="student_recoder.Student_recoder"  name="student_recoder" />
+  <update check="always"/>
+</jnlp>
